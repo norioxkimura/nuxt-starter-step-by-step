@@ -17,7 +17,7 @@ export default {
   css: [],
   plugins: [],
   components: true,
-  buildModules: ['@nuxtjs/composition-api'],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/composition-api'],
   modules: [],
   build: {},
 }
