@@ -18,7 +18,8 @@ export default {
   plugins: [],
   components: true,
   buildModules: ['@nuxt/typescript-build', '@nuxtjs/composition-api', '@nuxtjs/stylelint-module'],
-  modules: ['@nuxtjs/axios'],
+  modules: ['@nuxtjs/axios', 'nuxt-i18n'],
   build: {},
   axios: {},
+  i18n: {},
 }
