@@ -18,7 +18,7 @@ export default {
   plugins: [],
   components: true,
   buildModules: ['@nuxt/typescript-build', '@nuxtjs/composition-api', '@nuxtjs/stylelint-module'],
-  modules: ['@nuxtjs/axios', 'nuxt-i18n'],
+  modules: ['@nuxtjs/axios', 'nuxt-i18n', 'portal-vue/nuxt'],
   build: {},
   axios: {},
   i18n: {},
