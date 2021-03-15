@@ -9,7 +9,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "format": "prettier --ignore-path .gitignore -w .",
-    "format-check": "prettier --ignore-path .gitignore -c ."
+    "format-check": "prettier --ignore-path .gitignore -c .",
+    "lint:script": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:script"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,11 @@
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
     "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^6.0.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.7.0",
     "prettier": "^2.2.1"
   }
 }
