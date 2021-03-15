@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.22.1",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3"
+  }
 }
