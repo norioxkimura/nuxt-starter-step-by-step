@@ -17,7 +17,7 @@ export default {
   css: [],
   plugins: [],
   components: true,
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/composition-api'],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/composition-api', '@nuxtjs/stylelint-module'],
   modules: [],
   build: {},
 }
