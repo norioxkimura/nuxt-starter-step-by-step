@@ -22,6 +22,7 @@
     "@nuxtjs/axios": "^5.13.1",
     "@nuxtjs/composition-api": "^0.22.1",
     "core-js": "^3.9.1",
+    "fp-ts": "^2.9.5",
     "nuxt": "^2.15.3",
     "nuxt-i18n": "^6.21.1",
     "portal-vue": "^2.1.7"
