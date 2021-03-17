@@ -22,4 +22,9 @@ export default {
   build: {},
   axios: {},
   i18n: {},
+  vue: {
+    config: {
+      ignoredElements: ['app'],
+    },
+  },
 }
